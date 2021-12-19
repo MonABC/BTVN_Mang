@@ -6,27 +6,15 @@
 </head>
 <body>
 <script>
-    let arr = [
-        [2, 3, 4, 11],
-        [1, 11, 10, 5],
-        [7, 8, 11, 15]
-    ];
-    let a = parseInt(prompt("nhap so vao day nhe!"));
+    let arr = [2, 2, ,2, 3, 4, 11],
+
+     a = parseInt(prompt("nhap so vao day nhe!"));
     let count = 0;
-    for (let i = 0; i < arr.length; i++) {
-        for (let j = 0; j < arr.length; j++) {
-            if (a === arr[i][j]) {
-                let ok=a;
-                alert(ok)
-            }
+    for (let i=0; i<arr.length; i++){
+        if (a===arr[i]){
+        count++
         }
-    }    for (let i = 0; i < arr.length; i++) {
-        for (let j = 0; j < arr.length; j++) {
-            if (a === ok) {
-             count++
-            }
-        }
-    }
+    }alert(count)
 
 </script>
 
